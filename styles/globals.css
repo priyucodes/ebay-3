@@ -12,4 +12,7 @@
   .link {
     @apply hover:text-blue-500 hover:underline cursor-pointer text-gray-600;
   }
+  .card {
+    @apply border border-gray-200 rounded-md p-5 bg-gray-50 cursor-pointer hover:bg-gray-100;
+  }
 }
