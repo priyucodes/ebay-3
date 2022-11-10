@@ -10,7 +10,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   // https://www.npmjs.com/package/react-dropzone
   // https://nextjs.org/docs/advanced-features/custom-document
   // https://stackoverflow.com/questions/68914618/is-it-possible-to-use-husky-lint-stages-to-check-for-console-logs
-
+  // https://www.davidhu.io/react-spinners/ https://www.npmjs.com/package/react-spinners
+  // https://www.npmjs.com/package/react-loader-spinner
   return (
     // blockchain have different networks, mainnets and testnets and they alsohave nested networks
     <ThirdwebProvider desiredChainId={network}>
