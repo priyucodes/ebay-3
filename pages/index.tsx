@@ -39,7 +39,11 @@ const Home = () => {
                 className="flex flex-col card hover:scale-105 transition-all duration-150 ease-out"
                 href={`/listing/${listing.id}`}
               >
-                <div className="flex-1 flex-col flex">
+                <div
+                  className="flex-1 flex-col flex"
+                  // other way to route.
+                  // onCLick={() => router.push('/listing' + listing.id)}
+                >
                   <div className="flex-1 flex flex-col pb-2 items-center">
                     {/* Nice way to add images from thirdweb instead of next imgs */}
                     <MediaRenderer
